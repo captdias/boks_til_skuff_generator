@@ -24,10 +24,10 @@ jobs:
       - name: Sett opp Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '22'
 
       - name: Installer avhengigheter
-        run: npm install
+        run: npm install --legacy-peer-deps
 
       - name: Bygg app
         run: npm run build

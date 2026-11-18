@@ -1,0 +1,6 @@
+{
+  "name": "SkuffeCAD — Parametrisk Skuffe- og Boksgenerator",
+  "description": "Interaktiv parametrisk skuffe- og boksgenerator for laserkutter med tappesammenføyninger, kerf-kompensasjon og automatisk plassering på kutteplate.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
